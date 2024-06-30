@@ -57,8 +57,6 @@
   #NvidiaConfig
   hardware.opengl = {
     enable = true;
-    driSupport = true;
-    driSupport32Bit = true;
   };
 
   nixpkgs.config.allowUnfreePredicate = pkg:
